@@ -7,8 +7,8 @@ import BtnMenu from "@/app/components/ui/BtnMenu";
 export default function Header() {
   const links = ["shop", "shoes", "polos"];
   return (
-    <header className="fixed top-0 left-0 right-0 z-10 bg-white">
-      <nav className="uppercase grid grid-cols-3 items-center mx-12 py-3 text-zinc-600 text-sm">
+    <header className="fixed top-0 left-0 right-0 z-10 ">
+      <nav className="uppercase grid grid-cols-3 items-center mx-12 py-4 text-zinc-600 text-sm">
         <div className="flex gap-8 items-center justify-self-start">
           <BtnMenu />
           <ul className="inline-flex gap-4">
